@@ -1,0 +1,2 @@
+        import java.lang.String;
+        System.out.println("Das ist die \"Kode\"");

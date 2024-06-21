@@ -1,0 +1,19 @@
+        import java.lang.String;
+        System.out.println("Das ist die \"Kode\"
+        I wrote before
+        ");
+
+        /*
+        test("example")
+        */
+        // no code here
+        test("example 2") // no code later
+        System.out.println("""
+        Das ist die \"Kode\" /* comment doesn't matter */
+        I wrote before
+        """);
+
+        System.out.println(
+        ""
+        );
+        System.exit(0);
