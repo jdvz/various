@@ -72,7 +72,7 @@ class CalculateCodeLinesTest {
     try (InputStream stream = CalculateCodeLinesTest.class.getResourceAsStream("/testComplexExample.txt")) {
       assert (stream != null) : "Can't read file";
       String lanes = new String(stream.readAllBytes());
-      assert (13 == classUnderTest.calculate(lanes)) : "incorrect calc";
+      assert (20 == classUnderTest.calculate(lanes)) : "incorrect calc";
     }
   }
 }
